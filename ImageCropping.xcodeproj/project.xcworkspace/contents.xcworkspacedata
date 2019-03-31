@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ImageEditor.xcodeproj">
+      location = "self:/Users/apanagio/Documents/Play/ImageCropping/ImageCropping.xcodeproj">
    </FileRef>
 </Workspace>

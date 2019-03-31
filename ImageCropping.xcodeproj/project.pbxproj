@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		19799E082233E95700EC4569 /* ImageEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19799E082233E95700EC4569 /* ImageCropping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCropping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19799E0B2233E95700EC4569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19799E0D2233E95700EC4569 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		19799E102233E95700EC4569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		19799DFF2233E95700EC4569 = {
 			isa = PBXGroup;
 			children = (
-				19799E0A2233E95700EC4569 /* ImageEditor */,
+				19799E0A2233E95700EC4569 /* ImageCropping */,
 				19799E092233E95700EC4569 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		19799E092233E95700EC4569 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				19799E082233E95700EC4569 /* ImageEditor.app */,
+				19799E082233E95700EC4569 /* ImageCropping.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		19799E0A2233E95700EC4569 /* ImageEditor */ = {
+		19799E0A2233E95700EC4569 /* ImageCropping */ = {
 			isa = PBXGroup;
 			children = (
 				19799E0B2233E95700EC4569 /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				19799E172233E95900EC4569 /* Info.plist */,
 				19799E1F2237144600EC4569 /* UIView+Extentions.swift */,
 			);
-			path = ImageEditor;
+			path = ImageCropping;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		19799E072233E95700EC4569 /* ImageEditor */ = {
+		19799E072233E95700EC4569 /* ImageCropping */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19799E1A2233E95900EC4569 /* Build configuration list for PBXNativeTarget "ImageEditor" */;
+			buildConfigurationList = 19799E1A2233E95900EC4569 /* Build configuration list for PBXNativeTarget "ImageCropping" */;
 			buildPhases = (
 				19799E042233E95700EC4569 /* Sources */,
 				19799E052233E95700EC4569 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = ImageEditor;
+			name = ImageCropping;
 			productName = ImageEditor;
-			productReference = 19799E082233E95700EC4569 /* ImageEditor.app */;
+			productReference = 19799E082233E95700EC4569 /* ImageCropping.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 19799E032233E95700EC4569 /* Build configuration list for PBXProject "ImageEditor" */;
+			buildConfigurationList = 19799E032233E95700EC4569 /* Build configuration list for PBXProject "ImageCropping" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19799E072233E95700EC4569 /* ImageEditor */,
+				19799E072233E95700EC4569 /* ImageCropping */,
 			);
 		};
 /* End PBXProject section */
@@ -292,12 +292,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L32F2TJPQ4;
-				INFOPLIST_FILE = ImageEditor/Info.plist;
+				INFOPLIST_FILE = ImageCropping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = aris.panagiotopoulos.ImageEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = aris.panagiotopoulos.ImageCropping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,12 +310,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L32F2TJPQ4;
-				INFOPLIST_FILE = ImageEditor/Info.plist;
+				INFOPLIST_FILE = ImageCropping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = aris.panagiotopoulos.ImageEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = aris.panagiotopoulos.ImageCropping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19799E032233E95700EC4569 /* Build configuration list for PBXProject "ImageEditor" */ = {
+		19799E032233E95700EC4569 /* Build configuration list for PBXProject "ImageCropping" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19799E182233E95900EC4569 /* Debug */,
@@ -334,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19799E1A2233E95900EC4569 /* Build configuration list for PBXNativeTarget "ImageEditor" */ = {
+		19799E1A2233E95900EC4569 /* Build configuration list for PBXNativeTarget "ImageCropping" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19799E1B2233E95900EC4569 /* Debug */,
